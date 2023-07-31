@@ -1,0 +1,22 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  web:
+    build:
+      context: "/home/ivan/code/2023/news-app/News App"
+      dockerfile: "News App/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net7.0/News App.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      ASPNETCORE_URLS: "https://+:443;http://+:80"
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net7.0/News App.staticwebassets.runtime.CT.json"
+    image: "news appnewsapp:dev"
+    ports: []
+    volumes:
+    - "/home/ivan/.aspnet/https:/root/.aspnet/https"
+    - "/home/ivan/.microsoft/usersecrets:/root/.microsoft/usersecrets"
+    - "/home/ivan/code/2023/news-app/News App/News App:/app:rw"
+    working_dir: "/app"

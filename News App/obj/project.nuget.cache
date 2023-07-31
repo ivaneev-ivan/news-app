@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ddTfdQJ76mFiWnNF42Co+6ThUZWRoIJFMc05EaQh+hVaxdGH27a2jk+U4QGzS+FX6lJIeigTW0XJmNx6Qt1Dmw==",
+  "success": true,
+  "projectFilePath": "/home/ivan/code/2023/news-app/News App/News App/News App.csproj",
+  "expectedPackageFiles": [
+    "/home/ivan/.nuget/packages/dapper/2.0.143/dapper.2.0.143.nupkg.sha512",
+    "/home/ivan/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/home/ivan/.nuget/packages/npgsql/8.0.0-preview.4/npgsql.8.0.0-preview.4.nupkg.sha512"
+  ],
+  "logs": []
+}

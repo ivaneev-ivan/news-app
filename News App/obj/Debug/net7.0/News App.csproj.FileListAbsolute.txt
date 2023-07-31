@@ -1,0 +1,31 @@
+/home/ivan/code/2023/news-app/News App/News App/bin/Debug/net7.0/appsettings.Development.json
+/home/ivan/code/2023/news-app/News App/News App/bin/Debug/net7.0/appsettings.json
+/home/ivan/code/2023/news-app/News App/News App/bin/Debug/net7.0/News App.staticwebassets.runtime.json
+/home/ivan/code/2023/news-app/News App/News App/bin/Debug/net7.0/News App
+/home/ivan/code/2023/news-app/News App/News App/bin/Debug/net7.0/News App.deps.json
+/home/ivan/code/2023/news-app/News App/News App/bin/Debug/net7.0/News App.runtimeconfig.json
+/home/ivan/code/2023/news-app/News App/News App/bin/Debug/net7.0/News App.dll
+/home/ivan/code/2023/news-app/News App/News App/bin/Debug/net7.0/News App.pdb
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/News App.csproj.AssemblyReference.cache
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/News App.GeneratedMSBuildEditorConfig.editorconfig
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/News App.AssemblyInfoInputs.cache
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/News App.AssemblyInfo.cs
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/News App.csproj.CoreCompileInputs.cache
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/News App.MvcApplicationPartsAssemblyInfo.cache
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/News App.RazorAssemblyInfo.cache
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/News App.RazorAssemblyInfo.cs
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/staticwebassets/msbuild.News App.Microsoft.AspNetCore.StaticWebAssets.props
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/staticwebassets/msbuild.build.News App.props
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.News App.props
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.News App.props
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/staticwebassets.pack.json
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/staticwebassets.build.json
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/staticwebassets.development.json
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/scopedcss/bundle/News App.styles.css
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/scopedcss/projectbundle/News App.bundle.scp.css
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/News App.dll
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/refint/News App.dll
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/News App.pdb
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/News App.genruntimeconfig.cache
+/home/ivan/code/2023/news-app/News App/News App/obj/Debug/net7.0/ref/News App.dll
