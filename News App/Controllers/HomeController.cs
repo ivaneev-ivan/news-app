@@ -1,16 +1,16 @@
 ﻿using System.Data;
-using Npgsql;
 using System.Diagnostics;
 using Dapper;
 using Microsoft.AspNetCore.Mvc;
 using News_App.Models;
+using Npgsql;
 
 namespace News_App.Controllers;
 
 public class HomeController : Controller
 {
-    private readonly ILogger<HomeController> _logger;
     private readonly IConfiguration _configuration;
+    private readonly ILogger<HomeController> _logger;
 
     public HomeController(ILogger<HomeController> logger, IConfiguration configuration)
     {
@@ -37,20 +37,35 @@ public class HomeController : Controller
         return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 
-    public List<News> getNews()
+    public List<CreateNewsViewModel> getNews()
     {
         using (IDbConnection db = Connection)
         {
-            List<News> result = db.Query<News>("SELECT * FROM news").ToList();
+            var result = db.Query<CreateNewsViewModel>("SELECT * FROM news").ToList();
             return result;
         }
     }
 
-    public class News
+    [HttpGet]
+    public IActionResult CreateNews()
     {
-        public int id { set; get; }
-        public string title { set; get; }
-        public string description { set; get; }
-        public DateTime created_at { set; get; }
+        return View();
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> CreateNews(CreateNewsViewModel
+        model)
+    {
+        if (ModelState.IsValid)
+        {
+            using (IDbConnection db = Connection)
+            {
+                db.Query($"INSERT INTO news (title, description) VALUES ('{model.title}', '{model.description}')");
+            }
+
+            return Redirect("/Home/Index");
+        }
+
+        return View();
     }
 }
